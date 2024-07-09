@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define a Material Button style -->
+    <style name="MyMaterialButton" parent="Widget.MaterialComponents.Button">
+        <!-- Set button properties -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">@color/colorPrimaryDark</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Convertitore di Temperatura</string>
+    <string name="converti">CONVERTI</string>
+    <string name="f">°F</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="convertitore_di_temperatura">Convertitore di Temperatura</string>
+</resources>
