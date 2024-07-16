@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView per il nome dell'applicazione -->
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcolo del BMI"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="16dp">
+
+        <!-- Campo di testo per l'altezza -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/altezza_cm"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/altezzaEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <!-- Campo di testo per il peso -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/peso_kg"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/pesoEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </GridLayout>
+
+    <!-- Pulsante per calcolare il BMI -->
+    <Button
+        android:id="@+id/calcolaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calcola_bmi"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Area di testo per mostrare il risultato -->
+    <TextView
+        android:id="@+id/risultatoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calcolaButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autore"
+        android:layout_centerHorizontal="true"
+        android:text="by Raffaele Monti"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:layout_below="@id/risultatoTextView"/>
+
+
+</RelativeLayout>
