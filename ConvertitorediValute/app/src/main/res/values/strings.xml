@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Convertitore di Valute</string>
+    <string name="title_app">CONVERTITORE DI VALUTA</string>
+    <string name="subTitle">Da euro a dollaro</string>
+    <string name="euro">Euro</string>
+    <string name="inserisci_euro">Inserisci valore</string>
+    <string name="converti">CONVERTI</string>
+    <string name="risultato">Risultato</string>
+    <string name="dollari">Dollari</string>
+    <string name="subtitle">Da euro a dollaro</string>
+</resources>
