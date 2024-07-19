@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         return input.length() == 0;
     }
 
+    // scambia euro e dollaro
     public void scambia(View view) {
         if(euroToDollaro == true){
             valuta1.setText("Dollaro");
