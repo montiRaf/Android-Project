@@ -1,24 +1,19 @@
 package it.dib.uniba.apobus;
 
 import android.os.Bundle;
+import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        setContentView(R.layout.activity_splash);
+        View decorView = getWindow().getDecorView();       // otteniamo la view che rappresenta tutto ciò che la finestra contiene
+        int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION; // flag che permette di impostare l'hide degli elementi di navigazione
+        decorView.setSystemUiVisibility(uiOptions);
     }
 }
