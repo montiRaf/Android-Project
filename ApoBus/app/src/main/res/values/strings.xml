@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ApoBus</string>
     <string name="apobus">ApoBus</string>
+    <string name="splash_image">splash image</string>
 </resources>
