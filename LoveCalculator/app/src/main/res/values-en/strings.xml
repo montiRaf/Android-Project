@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Love Calculator</string>
+    <string name="il_tuo_nome">Your name</string>
+    <string name="il_nome_del_partner">Your partner</string>
+    <string name="go">GO</string>
+    <string name="love_calculator">Love Calculator</string>
+    <string name="cuore_image_view">Heart</string>
+</resources>

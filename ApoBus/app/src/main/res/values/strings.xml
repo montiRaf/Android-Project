@@ -2,4 +2,8 @@
     <string name="app_name">ApoBus</string>
     <string name="apobus">ApoBus</string>
     <string name="splash_image">splash image</string>
+    <string name="send_bus_stop_button">SEND BUSSTOP</string>
+    <string name="cancelled_operation">Cancelled operation</string>
+    <string name="custom_operation">Custom operation</string>
+    <string name="pick_busstop">PICK BUSSTOP</string>
 </resources>
