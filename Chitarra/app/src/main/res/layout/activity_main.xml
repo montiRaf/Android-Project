@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guitarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guitarbg"
+    android:paddingBottom="0dp"
+    android:paddingEnd="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingStart="0dp"
+    android:paddingTop="0dp"
+    android:visibility="visible"
+    tools:ignore="ContentDescription"
+    tools:context="it.dib.uniba.chitarra.MainActivity">
+
+    <ImageView
+        android:id="@+id/stringE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+
+        android:contentDescription=""
+        app:srcCompat="@drawable/se" />
+
+    <ImageView
+        android:id="@+id/stringA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stringE"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+
+
+        app:srcCompat="@drawable/sa" />
+
+    <ImageView
+        android:id="@+id/stringD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stringA"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+
+        app:srcCompat="@drawable/sd" />
+
+    <ImageView
+        android:id="@+id/stringG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stringD"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+
+        app:srcCompat="@drawable/sg" />
+
+    <ImageView
+        android:id="@+id/stringB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stringG"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+
+        app:srcCompat="@drawable/sb" />
+
+    <ImageView
+        android:id="@+id/stringe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stringB"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+
+        app:srcCompat="@drawable/se6" />
+
+</RelativeLayout>
+
